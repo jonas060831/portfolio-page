@@ -32,6 +32,26 @@ h1, h2, h3, h4, h5 {
   font-family: "Titan One";
 }
 
+/* https://stackoverflow.com/questions/18368202/how-can-i-set-the-color-for-the-progress-element */
+
+/* firefox */
+#comfort_progress::-moz-progress-bar {
+  background-color: orange;
+}
+
+/* chrome and safari */
+#comfort_progress, #comfort_progress::-webkit-progress-value {
+  background: orange;
+  
+}
+
+/* IE10 */
+#comfort_progress {
+  color: orange;
+  border-radius: 100vw;
+
+}
+
 
 
 /* device specifics */
